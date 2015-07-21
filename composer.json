@@ -1,0 +1,33 @@
+{
+    "name": "Asymptix/HtmlDomParser",
+    "description": "Composer adaptation and wrapper for the Simple HTML DOM parser written on PHP5+ let you manipulate HTML in a very easy and fast way. It supports invalid HTML DOM and may find tags in HTML DOM with selectors just like jQuery.",
+    "version": "1.5.196",
+    "type": "library",
+    "keywords": ["html", "dom", "parser", "php", "asymptix"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmytro Zarezenko",
+            "email": "dmytro.zarezenko@gmail.com",
+            "homepage": "https://github.com/dzarezenko",
+            "role": "Parser wrapper and Composer adaptation development"
+        },
+        {
+            "name": "Simple HTML DOM team: S.C. Chen <me578022@gmail.com>, John Schlick, Rus Carroll",
+            "homepage": "http://sourceforge.net/projects/simplehtmldom/",
+            "role": "Simple HTML DOM lib development"
+        }
+    ],
+    "support": {
+        "email": "dmytro.zarezenko@gmail.com"
+    },
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-4": { "Asymptix\\HtmlDomParser\\": "vendor/Asymptix/HtmlDomParser/" },
+        "files": [
+            "lib/SimpleHtmlDom/simple_html_dom.php"
+        ]
+    }
+}
