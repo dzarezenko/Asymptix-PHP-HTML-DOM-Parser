@@ -24,7 +24,7 @@
         "php": ">=5.3.2"
     },
     "autoload": {
-        "psr-4": { "Asymptix\\HtmlDomParser\\": "vendor/Asymptix/HtmlDomParser/" },
+        "psr-4": { "Asymptix\\HtmlDomParser\\": "lib/HtmlDomParser/" },
         "files": [
             "lib/SimpleHtmlDom/simple_html_dom.php"
         ]
