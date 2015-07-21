@@ -1,6 +1,7 @@
+/.git/
 /nbproject/
 /parse-url.php
 /vendor/composer/
 /vendor/autoload.php
-/vendor/Asymptix/OutputStream.php
-/vendor/Asymptix/FastObject.php
+/lib/OutputStream.php
+/lib/FastObject.php
