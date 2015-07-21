@@ -1,7 +1,6 @@
 {
     "name": "asymptix/html-dom-parser",
     "description": "Composer adaptation and wrapper for the Simple HTML DOM parser written on PHP5+ let you manipulate HTML in a very easy and fast way. It supports invalid HTML DOM and may find tags in HTML DOM with selectors just like jQuery.",
-    "version": "1.5.196",
     "type": "library",
     "keywords": ["html", "dom", "parser", "php", "asymptix"],
     "license": "MIT",
