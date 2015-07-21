@@ -34,7 +34,7 @@ foreach ($html->find("a.product") as $productItem) {
 
     $productDetails = $productHtml->find("div#productDetails", 0);
     $productForm = $productHtml->find("div#productForm", 0);
-    
+
     $product = new stdClass();
 
     if (is_object($productForm)) {
@@ -44,3 +44,7 @@ foreach ($html->find("a.product") as $productItem) {
     unset($productHtml);
 }
 ```
+
+Copyright (c) 2012 S.C. Chen, John Schlick, Rus Carroll from the [Simple HTML DOM](http://simplehtmldom.sourceforge.net/) lib developers team.
+
+Copyright (c) 2015 [Asymptix](http://www.asymptix.com).
