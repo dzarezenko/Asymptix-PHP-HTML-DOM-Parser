@@ -1,4 +1,5 @@
-/.git/
+vendor/
+composer.lock
 /nbproject/
 /parse-url.php
 /vendor/composer/
